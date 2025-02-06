@@ -60,4 +60,4 @@ class TestBurger:
         burger = Burger()
         burger.set_buns(mock_bun.return_value)
         burger.add_ingredient(mock_ingredient.return_value)
-        assert burger.get_receipt() == data.receipt
+        assert burger.get_receipt() == data.RECEIPT

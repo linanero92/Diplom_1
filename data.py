@@ -11,12 +11,11 @@ filling_name = 'Плоды Фалленианского дерева'
 filling_price: float = 824.0
 burger_price = 1003.0
 
-receipt = ("(==== Флюоресцентная булка R2-D3 ====)\n"
+RECEIPT = ("(==== Флюоресцентная булка R2-D3 ====)\n"
                    "= sauce Соус традиционный галактический =\n"
                    "(==== Флюоресцентная булка R2-D3 ====)\n"
                    "\n"
                    "Price: 1003.0")
-
 
 buns_db = [[0, "black bun", 100], [1, "white bun", 200], [2, "red bun", 300]]
 ingredients_db = [[0, INGREDIENT_TYPE_SAUCE, "hot sauce", 100], [1, INGREDIENT_TYPE_SAUCE, "sour cream", 200],
